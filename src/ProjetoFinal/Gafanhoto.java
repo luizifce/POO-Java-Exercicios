@@ -28,4 +28,16 @@ public class Gafanhoto extends Pessoa{
     public void viuMaisUm() {
         this.totAssistido++;
     }
+
+    @Override
+    public String toString() {
+        return "Gafanhoto{" +
+                "login='" + login + '\'' +
+                ", totAssistido=" + totAssistido +
+                ", nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", sexo='" + sexo + '\'' +
+                ", experiencia=" + experiencia +
+                '}';
+    }
 }
